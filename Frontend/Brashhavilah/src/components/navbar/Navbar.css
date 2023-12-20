@@ -1,0 +1,49 @@
+.wrap{
+    display: flex;
+    background-color: rgb(242, 213, 50);
+    justify-content: space-between;
+    /* padding-right: 60px;
+    padding-left: 60px; */
+    position: fixed;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.center{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    color: rgb(28, 28, 137);
+}
+
+.center li {
+    list-style: none;
+}
+
+
+#btn{
+    margin-right: 20px;
+
+    
+}
+
+#btn button {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(33, 33, 132);
+}
+.left {
+    width: 320px;
+    font-size: 24px;
+}
+
+.jio{
+    /* width: 20px; */
+}
+
+.right {
+    margin-top: 10px;
+}

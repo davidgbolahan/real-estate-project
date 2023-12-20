@@ -1,0 +1,82 @@
+.containers{
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100dvw;
+    background-image: url('../../../public/WhatsApp\ Image\ 2023-12-06\ at\ 18.45.41_37b8c94d.jpg');
+    /* background-color: #rgba(0, 0, 0, 0.2); */
+    background-size: cover;
+    background-blend-mode: darken;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    align-items: center;
+    margin-top: 40px;
+    /* border: 2px black solid; */
+}
+
+.wrapper{
+    height: 67.5vh;
+    width: 27.5vw;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 500px; */
+    background-color: #fff;
+}
+
+.wrapper > h2{
+    color: #171097;
+    text-align: center;
+    margin: 2.5rem 0;
+    font-size: 36px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
+}
+
+form > input{
+    width: 50%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+form > label{
+    align-self: center;
+    width: 50%;
+    cursor: pointer;
+    transition: 150ms all;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+form > label:hover{
+    color: #444;
+}
+
+form > button:hover{
+    background-color: #2518d9;
+    border-color: blue;
+    color: rgb(245, 245, 249);
+}
+
+form > p{
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ 
+form > p > a{
+    text-decoration: none;
+    font-size: 17px;  
+}
+
