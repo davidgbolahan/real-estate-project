@@ -1,0 +1,27 @@
+.about-us {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    background-image: url(../../../public/WhatsApp\ Image\ 2023-12-06\ at\ 18.45.41_37b8c94d.jpg);
+    height: 150vh;
+    width: 100vw;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    margin-top: 40px;
+  }
+  
+  .about-us h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .about-us p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+.location-map {
+  margin-top: 20px;
+}

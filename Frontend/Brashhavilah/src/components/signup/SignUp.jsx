@@ -1,6 +1,7 @@
-import React from 'react'
+
 import { FaFileImage } from "react-icons/fa";
 import "../signup/SignUp.css"
+
 
 const SignUp = () => {
 
@@ -16,7 +17,7 @@ const SignUp = () => {
           <input id="photo" type="file" style={{display: 'none'}} />
           <input type="password" name="password" placeholder='password...'/>
           <button type="submit">Register</button>
-          <p>Already have an account? </p>
+          <p>Already have an account? <span><a href='./Signin'> Signin</a></span> </p>
         </form>
 
       </div>

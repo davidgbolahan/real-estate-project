@@ -1,59 +1,39 @@
-.container{
-    height: 100%;
-    width: 100%;
-    margin-top: 7.5rem;
-}
-
-.offer-container{
-    max-width: 1180%;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.latest-offer{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
-.latest-offer > h5{
-    color: #777;
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.latest-offer > h2{
+.newsletter {
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 100px;
+    background-color: #f9f9f9;
+    height: 50vh;
+  }
+  
+  .newsletter h2 {
+    margin-bottom: 15px;
     color: #333;
-    font-size: 28px;
-}
-
-.inputcontainer{
-    margin-top: 2.5rem;
-    border: 2px solid #333;
-    border-radius: 20px;
-    height: 50px;
-    width: 360px;
-    padding: 0.5rem;
+  }
+  
+  .newsletter form {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-}
-
-.inputcontainer:focus-within{
-    border-color: #777;
-}
-
-.inputcontainer > input{
+  }
+  
+  .newsletter input[type='email'] {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .newsletter button {
+    padding: 8px 15px;
     border: none;
-    outline: none;
-    padding-left: 0.5rem;
-}
-
-.inputcontainer > .sendicon{
-    margin-right: 0.5rem;
-    font-size: 20px;
-}
+    border-radius: 3px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .newsletter button:hover {
+    background-color: #0056b3;
+  }
+  

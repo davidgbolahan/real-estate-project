@@ -1,4 +1,3 @@
-import React from 'react'
 import "./Footer.css"
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
@@ -30,7 +29,9 @@ const Footer = () => {
           <h2>Location</h2>
           <span>Continent: Africa</span>
           <span>Country: Nigeria</span>
-          <span>Current Location: Lagos</span>
+          <span><p>Address: 123 Main Street, Lagos Island, Nigeria.</p></span>
+          <hr />
+          <p> Copyright 2023 <br /> Brashhavilah.</p>
         </div>
 
       </div>

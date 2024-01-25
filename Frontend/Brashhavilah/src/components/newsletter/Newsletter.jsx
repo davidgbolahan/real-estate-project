@@ -1,26 +1,39 @@
-import React from 'react'
 import './Newsletter.css'
-import { PiCursorClickFill } from "react-icons/pi";
-
+// import { PiCursorClickFill } from "react-icons/pi";
+import React, { useState } from 'react';
 
 const Newsletter = () => {
+  const [email, setEmail] = useState('');
+
+  const handleInputChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // You can add logic here to handle the subscription, like sending the email to your backend
+
+    // For example:
+    console.log(`Subscribed email: ${email}`);
+    // Reset the input field after submitting
+    setEmail('');
+  };
+
   return (
-        <div className="container">
-            <div className="offer-container">
-                <div className="latest-offers">
-                    <h5>Do you want to get our latest offers?</h5>
-                    <h2>Send us your email and we will do the rest</h2>
-
-                </div>
-                <div className="inputcontainer">
-                    <input type="email" placeholder='Type email...'/>
-                    <PiCursorClickFill className='sendicon' />
-
-                </div>
-
-        </div>
+    <div className="newsletter">
+      <h2>Subscribe to Our Newsletter</h2>
+      <form onSubmit={handleSubmit}>
+        <input
+          type="email"
+          placeholder="Enter your email"
+          value={email}
+          onChange={handleInputChange}
+          required
+        />
+        <button type="submit">Subscribe</button>
+      </form>
     </div>
-  )
-}
+  );
+};
 
-export default Newsletter
+export default Newsletter;

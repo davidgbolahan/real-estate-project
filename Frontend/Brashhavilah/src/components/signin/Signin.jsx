@@ -1,4 +1,4 @@
-import React from 'react'
+
 import '../signin/Signin.css'
 import Navbar from '../navbar/Navbar'
 
@@ -14,7 +14,7 @@ const Signin = () => {
           <input type="password" placeholder='passsword...' />
           <button type="submit">Sign In</button>
         </form>
-        <p> Don't have an account? <span><a href='./SignUp'> Sign Up</a></span> </p>
+        <p> Dont have an account? <span><a href='./SignUp'> Sign Up</a></span> </p>
       </div>
     </div>
     </>
